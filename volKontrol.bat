@@ -1,0 +1,1 @@
+volKontrol.exe < %~dp0..\args.txt

@@ -1,0 +1,1 @@
+gcc -o %~dp0volKontrol.exe %~dp0main.c
