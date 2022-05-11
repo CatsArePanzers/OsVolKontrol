@@ -79,7 +79,7 @@ void button_command(int button) {
 
         delay(100);
 
-        Keyboard.println("firefox.exe");
+        Keyboard.println("volKontrol.bat");
         break;
     case MUTE_CURRENT:
       if (key) {
