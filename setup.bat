@@ -8,9 +8,9 @@ del %~dp0nircmd-x64.zip
 move %~dp0nircmd.exe %~dp0bin
 call %~dp0compile.bat
 move %~dp0volKontrol.exe %~dp0bin
-xcopy %~dp0volKontrol.bat %~dp0bin\ /Y
-nircmd elevate volKontrol.bat
-xcopy %~dp0startup.bat "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" /Y
+xcopy %~dp0start.bat %~dp0bin\ /Y
+nircmd elevate start.bat
+xcopy %~dp0volKontrol.bat "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" /Y
 
 
 
