@@ -1,2 +1,2 @@
-volKontrol.exe < %~dp0args.txt
+volKontrol.exe < %~dp0..\args.txt
 timeout -1 /nobreak
