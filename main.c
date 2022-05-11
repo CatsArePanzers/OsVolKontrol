@@ -97,7 +97,7 @@ int main() {
     puts(port);
     
     for (int i  = 0; i < NUM_POTENCIOMETERS; i++)
-        puts(audio_steam[i - 1]);
+        puts(audio_steam[i]);
 
     char str[16];
 
